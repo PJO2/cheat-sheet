@@ -6,3 +6,4 @@ Since i was unable to find one that suits me, i made it and made it publicy avai
 Z80 and 8086 instructions
 
  
+# Several ways to structure data inside Jinja2's templates

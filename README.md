@@ -7,3 +7,11 @@ Z80 and 8086 instructions
 
  
 # Several ways to structure data inside Jinja2's templates
+Advanced Jinja
+
+# Jinja cheatsheet for network engineers
+A cheat sheet about jinja and ansible builtin filters i was unable to find.
+I wrote it
+
+# Retro Labbing: Building a WPA2 Enterprise Wifi with End of Life devices
+For about 100€ of second end Cisco devices, it is possible to build a managed, secured wifi network for a non profit organization

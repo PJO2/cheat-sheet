@@ -14,6 +14,7 @@
 > All Cisco devices are End-of-Life in the vendor catalog, which makes them inexpensive on the second-hand market (eBay), yet they remain robust and reliable when properly configured.  
 > Cisco devices were purchased second-hand on eBay for approximately **€100**.
 
+![Physical diagram](images/lab_physical.png "Physical diagram")
 ---
 
 ## Software Installation
@@ -28,6 +29,8 @@
 
 Default router for endpoints: `172.30.216.1` (Pi 5 gateway in lab).  
 RADIUS server gets `172.30.0.10` via DHCP.
+
+![Logical diagram](images/lab_logical.png "Logical diagram")
 
 ---
 

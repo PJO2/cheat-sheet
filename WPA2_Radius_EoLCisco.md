@@ -131,8 +131,10 @@ iface eth0 inet static
   ```
 
 - **AP Images**  
-  Standalone: `C1140-K9W7-M`  
+  Standalone: `C1140-K9W7-M`  (not usable)
   Lightweight: `C1140-K9W8-M` (required for WLC)
+
+  Use a TFTP server ([this one](https://github.com/PJO2/tftpd64) is the best :)) to download a K9W8 version from a Lightweight AP, then upload it to the standalone APs and reload the device. 
 
 - **WLC Discovery via DHCP Option 43**  
   ```bash
@@ -142,7 +144,7 @@ iface eth0 inet static
    dns-server 8.8.8.8
    option 43 hex f104.ac1e.00fe
   ```
-  Option 43 = `f104` + controller IP in hex.
+  Option 43 = `f104` + controller IP in hex (yes, ac1e.00.fe is 172.30.0.254).
 
 - **Expired Certificates on AP**  
   ```bash

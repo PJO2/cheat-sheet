@@ -134,7 +134,7 @@ iface eth0 inet static
   Standalone: `C1140-K9W7-M`  (not usable)
   Lightweight: `C1140-K9W8-M` (required for WLC)
 
-  Use a TFTP server ([this one](https://github.com/PJO2/tftpd64) is the best :)) to download a K9W8 version from a Lightweight AP, then upload it to the standalone APs and reload the device. 
+  Use a TFTP server ([this one](https://github.com/PJO2/tftpd64) is the best 😊) to download a K9W8 version from a Lightweight AP, then upload it to the standalone APs and reload the device. 
 
 - **WLC Discovery via DHCP Option 43**  
   ```bash
